@@ -22,11 +22,11 @@ def winscreen():
 
     topws = tk.Tk()
     topws.title('Winner')
-    imagew1 = Image.open('backgroundblur.jpg')
-    tkw1_image = ImageTk.PhotoImage(imagew1)
-
-    labelw1 = tk.Label(topws, image=tkw1_image)
-    labelw1.pack()
+    # imagew1 = Image.open('backgroundblur.jpg')
+    # tkw1_image = ImageTk.PhotoImage(imagew1)
+    #
+    # labelw1 = tk.Label(topws, image=tkw1_image)
+    # labelw1.pack()
 
     winner = tk.Label(topws)
     winner.place(relx=0.0, rely=0.04, height=100, width=1366)
